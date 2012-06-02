@@ -1,0 +1,107 @@
+v 20070216 1
+T 300 2200 8 10 1 1 180 6 1
+refdes=U?
+T -3275 550 8 10 0 0 0 0 1
+device=ATtiny85V
+T -3275 750 8 10 0 0 0 0 1
+footprint=DIP8
+P 4800 600 4500 600 1 0 0
+{
+T 4600 650 5 8 1 1 0 0 1
+pinnumber=1
+T 4600 650 5 8 0 1 180 8 1
+pinseq=1
+T 4450 600 9 8 1 1 0 6 1
+pinlabel=(RESET/ADC0/dW/PCINT5)PB5
+T 4450 600 5 8 0 1 180 2 1
+pintype=io
+}
+P 4800 800 4500 800 1 0 0
+{
+T 4600 850 5 8 1 1 0 0 1
+pinnumber=3
+T 4600 750 5 8 0 1 0 2 1
+pinseq=3
+T 4450 800 9 8 1 1 0 6 1
+pinlabel=(XTAL2/CLKO/OC1B/ADC2/PCINT4)PB4
+T 4450 800 5 8 0 1 0 8 1
+pintype=io
+}
+P 4800 1000 4500 1000 1 0 0
+{
+T 4600 1050 5 8 1 1 0 0 1
+pinnumber=2
+T 4600 950 5 8 0 1 0 2 1
+pinseq=2
+T 4450 1000 9 8 1 1 0 6 1
+pinlabel=(XTAL1/CLKI/OC1B/ADC3/PCINT3)PB3
+T 4450 1000 5 8 0 1 0 8 1
+pintype=io
+}
+P 4800 1200 4500 1200 1 0 0
+{
+T 4600 1250 5 8 1 1 0 0 1
+pinnumber=7
+T 4600 1150 5 8 0 1 0 2 1
+pinseq=7
+T 4450 1200 9 8 1 1 0 6 1
+pinlabel=(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)PB2
+T 4450 1200 5 8 0 1 0 8 1
+pintype=io
+}
+P 4800 1400 4500 1400 1 0 0
+{
+T 4600 1450 5 8 1 1 0 0 1
+pinnumber=6
+T 4600 1350 5 8 0 1 0 2 1
+pinseq=6
+T 4450 1400 9 8 1 1 0 6 1
+pinlabel=(MISO/DO/AIN1/OC0B/OC1A/PCINT1)PB1
+T 4450 1400 5 8 0 1 0 8 1
+pintype=io
+}
+P 4800 1600 4500 1600 1 0 0
+{
+T 4600 1650 5 8 1 1 0 0 1
+pinnumber=5
+T 4600 1550 5 8 0 1 0 2 1
+pinseq=5
+T 4450 1600 9 8 1 1 0 6 1
+pinlabel=(MOSI/DI/SDA/AIN0/OC0A/OC1A/AREF/PCINT0)PB0
+T 4450 1600 5 8 0 1 0 8 1
+pintype=io
+}
+B 300 300 4200 1700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T -3275 950 8 10 0 0 0 0 1
+description=8-bit RISC micro controller (Atmel)
+T -3275 1150 8 10 0 0 0 0 1
+numslots=0
+T -3275 1350 8 10 0 0 0 0 1
+author=Atommann <atommann@gmail.com>
+T 300 50 9 10 1 0 0 0 1
+ATtiny85V-10P
+P 0 600 300 600 1 0 0
+{
+T 200 650 5 8 1 1 0 6 1
+pinnumber=4
+T 200 550 5 8 0 1 0 8 1
+pinseq=4
+T 350 600 9 8 1 1 0 0 1
+pinlabel=GND
+T 350 600 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 0 800 300 800 1 0 0
+{
+T 200 850 5 8 1 1 0 6 1
+pinnumber=8
+T 200 750 5 8 0 1 0 8 1
+pinseq=8
+T 350 800 9 8 1 1 0 0 1
+pinlabel=VCC
+T 350 800 5 8 0 1 0 2 1
+pintype=pwr
+}
+L 2525 1725 2950 1725 3 0 0 0 -1 -1
+L 2550 1125 2975 1125 3 0 0 0 -1 -1
+L 2150 725 2675 725 3 0 0 0 -1 -1

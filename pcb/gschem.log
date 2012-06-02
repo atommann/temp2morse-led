@@ -1,0 +1,24 @@
+gEDA/gschem version 20070216
+gEDA/gschem comes with ABSOLUTELY NO WARRANTY; see COPYING for more details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; please see the COPYING file for more details.
+
+Read system-gafrc file [/usr/local/share/geda/system-gafrc]
+Did not find optional ~/.gEDA/gafrc file [/usr/home/atommann/.gEDA]
+Read local gafrc file [/usr/home/atommann/projects/binary_cooking_timer/hardware/gafrc]
+Read system-gschemrc file [/usr/local/share/geda/system-gschemrc]
+Did not find optional ~/.gEDA/gschemrc file [/usr/home/atommann/.gEDA]
+Read local gschemrc file [/usr/home/atommann/projects/binary_cooking_timer/hardware/gschemrc]
+Read init scm file [/usr/local/share/geda/scheme/gschem.scm]
+RC file [/usr/home/atommann/projects/binary_cooking_timer/hardware/gafrc] already read in.
+Opened file [/usr/home/atommann/projects/binary_cooking_timer/hardware/binary_cooking_timer.sch]
+Searching for symbol [/usr/home/atommann/projects/binary_cooking_timer/hardware/./symbols/ATtiny85-1.sym]
+Did not find specified /usr/home/atommann/projects/binary_cooking_timer/hardware/symbols/gafrc file [/usr/home/atommann/projects/binary_cooking_timer/hardware/symbols/gafrc]
+Opened file [/usr/home/atommann/projects/binary_cooking_timer/hardware/symbols/ATtiny85-1.sym]
+Saved [/usr/home/atommann/projects/binary_cooking_timer/hardware/symbols/ATtiny85-1.sym]
+Translating schematic [0 0]
+Saved [/usr/home/atommann/projects/binary_cooking_timer/hardware/symbols/ATtiny85-1.sym]
+Did not find specified /usr/home/atommann/projects/binary_cooking_timer/hardware/symbols/gafrc file [/usr/home/atommann/projects/binary_cooking_timer/hardware/symbols/gafrc]
+Opened file [/usr/home/atommann/projects/binary_cooking_timer/hardware/symbols/ATtiny85-1.sym]
+Saved [/usr/home/atommann/projects/binary_cooking_timer/hardware/binary_cooking_timer.sch]
+Saved [/usr/home/atommann/projects/binary_cooking_timer/hardware/binary_cooking_timer.sch]
